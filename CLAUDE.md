@@ -37,12 +37,12 @@ mvn clean install
 
 ### Core Components
 
-1. **`@Builder` Annotation** (`annotation.com.satispay.builder.Builder`)
+1. **`@Builder` Annotation** (`com.satispay.capri.builder.annotation.Builder`)
    - Annotation that can be applied to records
    - Configurable builder class name and static method name
    - Retention policy: SOURCE (only available during compilation)
 
-2. **BuilderProcessor** (`processor.com.satispay.builder.BuilderProcessor`)
+2. **BuilderProcessor** (`com.satispay.capri.builder.processor.BuilderProcessor`)
    - Annotation processor that generates builder classes
    - Uses JavaPoet for code generation
    - Generates a helper class with static builder method and nested builder class
@@ -68,9 +68,9 @@ To use Capri Builder in your Maven project, add the following dependency:
 
 ```xml
 <dependency>
-    <groupId>com.capri</groupId>
+    <groupId>com.satispay.capri</groupId>
     <artifactId>capri-builder</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -109,8 +109,8 @@ Currently, the annotation processor doesn't generate builders for test classes i
 **Example for external projects**:
 ```xml
 <dependency>
-    <groupId>com.capri</groupId>
+    <groupId>com.satispay.capri</groupId>
     <artifactId>capri-builder</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 </dependency>
 ```
