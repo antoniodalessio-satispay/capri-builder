@@ -1,5 +1,10 @@
 # Capri Builder
 
+<p align="center">
+  <img width="800" height="800" alt="CapriLombok" src="https://github.com/user-attachments/assets/9889184f-c565-423c-bc62-169d144fc0b0">
+</p>
+
+
 A lightweight alternative to Lombok providing `@Builder` annotation for Java records
 
 ## Features
