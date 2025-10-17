@@ -92,7 +92,3 @@ The generated code follows this pattern:
 - `MyRecordBuilderHelper.builder()` returns a new `MyRecordBuilder` instance
 - Each record component gets a fluent setter method
 - `build()` method constructs the final record instance
-
-## License
-
-This project is part of the Satispay engineering toolkit.
